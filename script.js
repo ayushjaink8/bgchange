@@ -31,9 +31,8 @@ function gradiantcolor(){
 
     var body = document.getElementById("body");
 
-   //body.style.backgroundColor=color1;
-   //body.style.backgroundImage= linearGradient(color1 , color2); //-- error here
-
+   body.style.backgroundColor=color1;
+   body.style.backgroundImage = `linear-gradient($(color1) , $(color2))`;
     var changeName1 = document.querySelector(".changeName1");
     changeName1.textContent=color1+" + "+color2;
 
