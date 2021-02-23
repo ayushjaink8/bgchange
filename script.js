@@ -15,7 +15,9 @@ function generatecolour() {
     var color = generatecolour();
     console.log(color);
     var body = document.querySelector("body");
+    
     body.style.backgroundColor = color;
+    body.style.backgroundImage = ``;
   
     var changeName2 = document.querySelector(".changeName2");
     changeName2.textContent=color;
@@ -24,6 +26,7 @@ function generatecolour() {
   
   
   function gradiantcolor(){
+
       var color1 = generatecolour();
       var color2 = generatecolour();
   
@@ -31,7 +34,7 @@ function generatecolour() {
   
       var body = document.getElementById("body");
   
-     //body.style.backgroundColor=color1;
+     body.style.backgroundColor=color1;
 
      body.style.backgroundImage = `linear-gradient(320deg ,${color1} , ${color2})`;
       var changeName1 = document.querySelector(".changeName1");
