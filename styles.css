@@ -5,14 +5,22 @@
   align-items: center;
   height: 50vh;
   flex-direction: column;
+  padding-bottom: 8vh;
+  padding-top: 8vh;
 }
 .main2 {
+  padding-top: 8vh;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
   height: 50vh;
   flex-direction: column;
+  padding-bottom: 8vh;
+}
+.input {
+  vertical-align: -webkit-baseline-middle;
+  margin-left: 3em;
 }
 
 /* 
