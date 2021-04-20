@@ -54,7 +54,7 @@ $(".dial").knob({
     var a = document.querySelector(".dial").value;
     var text = `${a}`;
     body.style.backgroundImage = `linear-gradient(${text}deg,${color1} , ${color2})`;
-    console.log(`${color1} + ${color2} + ${text}`);
+//     console.log(`${color1} + ${color2} + ${text}`);
   },
 
   cursor: 30,
