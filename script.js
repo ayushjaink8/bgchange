@@ -13,7 +13,7 @@ function generatecolour() {
 
 function hexcolor() {
   var color = generatecolour();
-  console.log(color);
+//   console.log(color);
   var body = document.querySelector("body");
 
   body.style.backgroundColor = color;
@@ -30,7 +30,7 @@ function gradiantcolor() {
   color1 = generatecolour();
   color2 = generatecolour();
 
-  console.log(color1 + " + " + color2);
+//   console.log(color1 + " + " + color2);
 
   var body = document.getElementById("body");
 
